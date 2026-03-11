@@ -25,6 +25,7 @@ const Index = () => {
   return (
     <Layout>
       <head>
+        <meta name="description" content="Join LinkedIn today to connect with professionals worldwide. Log in or sign up to expand your network and enhance your career." />
         <script type="application/ld+json">
           {`
             {
