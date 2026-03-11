@@ -267,6 +267,48 @@ const Index = () => {
         </div>
       </div>
 
+      <div className="section-padding bg-gray-100">
+        <div className="section-container">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            className="text-center mb-16"
+          >
+            <motion.div variants={fadeUp} custom={0} className="tag-pill mb-4 mx-auto">Why Choose Us</motion.div>
+            <motion.h2 variants={fadeUp} custom={1} className="text-4xl sm:text-5xl font-display font-bold mb-4">Why Choose Us</motion.h2>
+            <motion.div variants={fadeUp} custom={2} className="divider-gradient mx-auto" />
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeUp}
+              custom={0}
+              className="bg-white p-6 rounded-xl shadow-md"
+            >
+              <blockquote className="italic text-muted-foreground">"Rated as the top cleaning service by CleanTech Magazine."</blockquote>
+              <cite className="block mt-2 text-right text-sm text-muted-foreground">- CleanTech Magazine</cite>
+            </motion.div>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeUp}
+              custom={1}
+              className="bg-white p-6 rounded-xl shadow-md"
+            >
+              <ul className="list-disc pl-4 text-muted-foreground">
+                <li>ISO 9001 Certified</li>
+                <li>Member of the National Cleaning Association</li>
+              </ul>
+            </motion.div>
+          </div>
+        </div>
+      </div>
+
       <div className="section-padding bg-background">
         <div className="section-container">
           <motion.div
