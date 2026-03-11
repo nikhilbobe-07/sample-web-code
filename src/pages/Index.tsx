@@ -327,13 +327,25 @@ const Index = () => {
           </motion.div>
 
           <div className="faq-section">
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">How do I schedule a cleaning service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890.</p>
+            <div className="faq-item mb-5">
+              <h3 className="text-xl font-semibold text-primary cursor-pointer">How often should I get deep cleaning?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed mt-2">We recommend deep cleaning your home at least once every three months to maintain a healthy and hygienic environment.</p>
             </div>
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
+            <div className="faq-item mb-5">
+              <h3 className="text-xl font-semibold text-primary cursor-pointer">What areas do you serve?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed mt-2">We serve the entire metropolitan area, including downtown and surrounding suburbs. Please contact us for more specific coverage details.</p>
+            </div>
+            <div className="faq-item mb-5">
+              <h3 className="text-xl font-semibold text-primary cursor-pointer">Are your products eco-friendly?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed mt-2">Yes, we use eco-friendly cleaning products that are safe for both your family and the environment.</p>
+            </div>
+            <div className="faq-item mb-5">
+              <h3 className="text-xl font-semibold text-primary cursor-pointer">Do I need to be home during the cleaning?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed mt-2">No, it's not necessary for you to be home. Our team is fully insured and trained to work independently.</p>
+            </div>
+            <div className="faq-item mb-5">
+              <h3 className="text-xl font-semibold text-primary cursor-pointer">How do I schedule a cleaning?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed mt-2">You can schedule a cleaning through our website or by calling our customer service line.</p>
             </div>
           </div>
         </div>
