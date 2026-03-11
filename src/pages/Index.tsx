@@ -326,14 +326,17 @@ const Index = () => {
             <motion.div variants={fadeUp} custom={2} className="divider-gradient mx-auto" />
           </motion.div>
 
-          <div className="faq-section">
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">How do I schedule a cleaning service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890.</p>
-            </div>
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
+          <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
+            <div className="space-y-4">
+              <div className="border-b border-gray-300 pb-4">
+                <h3 className="text-lg font-semibold">What is SparkClean?</h3>
+                <p className="text-gray-700">SparkClean is a comprehensive cleaning solution offering a range of services tailored to your needs.</p>
+              </div>
+              <div className="border-b border-gray-300 pb-4">
+                <h3 className="text-lg font-semibold">How can I book a service?</h3>
+                <p className="text-gray-700">You can book a service by visiting our booking page or calling our customer service hotline.</p>
+              </div>
             </div>
           </div>
         </div>
