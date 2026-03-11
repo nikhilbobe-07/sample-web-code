@@ -338,6 +338,37 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <div className="section-padding bg-background">
+        <div className="section-container max-w-2xl mx-auto p-6 bg-white shadow-md rounded-lg">
+          <h1 className="text-2xl font-bold mb-4">Welcome to SparkClean!</h1>
+          <p className="mb-4">
+            At SparkClean, we pride ourselves on delivering top-notch cleaning solutions tailored to your needs. Our dedicated team ensures your space shines, offering customized services to meet your specific requirements.
+          </p>
+
+          <h2 className="text-xl font-semibold mb-2">Our Services:</h2>
+          <ul className="list-disc ml-6 mb-4">
+            <li className="mb-2">
+              <strong>Residential Cleaning:</strong> Experience a spotless home with our comprehensive cleaning packages. We cover everything from dusting and vacuuming to deep cleaning kitchens and bathrooms.
+            </li>
+            <li className="mb-2">
+              <strong>Commercial Cleaning:</strong> Maintain a professional environment with our reliable commercial cleaning services. From offices to retail spaces, we ensure cleanliness and hygiene.
+            </li>
+            <li>
+              <strong>Eco-Friendly Solutions:</strong> Committed to sustainability, we use eco-friendly products that are safe for you and the environment, ensuring effective cleaning without harmful chemicals.
+            </li>
+          </ul>
+
+          <h2 className="text-xl font-semibold mb-2">Why Choose SparkClean?</h2>
+          <p className="mb-4">
+            Choosing SparkClean means choosing quality and reliability. Our trained professionals are equipped with the latest cleaning tools and techniques. We offer flexible scheduling, competitive prices, and a satisfaction guarantee. Don't just take our word for it – see what our satisfied customers have to say!
+          </p>
+
+          <p className="text-lg font-bold text-center mt-6">
+            Ready to experience a cleaner space? <Link to="/contact" className="text-blue-500 hover:underline">Contact us</Link> to schedule your service today!
+          </p>
+        </div>
+      </div>
     </Layout>
   );
 };
