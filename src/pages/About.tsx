@@ -28,6 +28,15 @@ const About = () => {
 
       <div className="section-padding bg-background">
         <div className="section-container">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="text-3xl sm:text-4xl font-display font-bold mb-4"
+          >
+            Our Mission
+          </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -45,7 +54,7 @@ const About = () => {
             transition={{ duration: 0.5 }}
             className="text-3xl sm:text-4xl font-display font-bold mb-4"
           >
-            Meet Our Team
+            Our Team
           </motion.h2>
           <div className="divider-gradient mb-12" />
 
