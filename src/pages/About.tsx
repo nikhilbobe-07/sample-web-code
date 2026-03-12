@@ -38,6 +38,13 @@ const About = () => {
             SparkClean is a professional home cleaning company based in Bangalore. We started with a simple goal: to make clean homes accessible and affordable for busy families across the city. Our team of trained cleaners is committed to delivering a high-quality service every time.
           </motion.p>
 
+          <div className="bg-white p-6 rounded-lg shadow-lg mb-12">
+            <h2 className="text-xl font-bold mb-4">Eco-Friendly Cleaning</h2>
+            <p className="text-gray-700">
+              SparkClean utilizes environmentally safe cleaning agents that minimize harm to the ecosystem while delivering effective cleaning results.
+            </p>
+          </div>
+
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
