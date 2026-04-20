@@ -326,14 +326,40 @@ const Index = () => {
             <motion.div variants={fadeUp} custom={2} className="divider-gradient mx-auto" />
           </motion.div>
 
-          <div className="faq-section">
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">How do I schedule a cleaning service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890.</p>
+          <div className="space-y-4">
+            <div className="border-b pb-4">
+              <h3 className="text-lg font-semibold">How much does cleaning cost?</h3>
+              <p className="text-gray-700">Our cleaning services start at $X per hour, depending on the type of cleaning and the size of the area.</p>
             </div>
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
+            
+            <div className="border-b pb-4">
+              <h3 className="text-lg font-semibold">What are your service areas?</h3>
+              <p className="text-gray-700">We serve the following areas: [List specific areas or regions].</p>
+            </div>
+
+            <div className="border-b pb-4">
+              <h3 className="text-lg font-semibold">How do I book a cleaning service?</h3>
+              <p className="text-gray-700">You can book a service through our website by selecting a date and time that suits you.</p>
+            </div>
+
+            <div className="border-b pb-4">
+              <h3 className="text-lg font-semibold">What is your cancellation policy?</h3>
+              <p className="text-gray-700">Cancellations must be made at least 24 hours in advance to avoid a cancellation fee.</p>
+            </div>
+
+            <div className="border-b pb-4">
+              <h3 className="text-lg font-semibold">Do you provide cleaning supplies?</h3>
+              <p className="text-gray-700">Yes, we provide all necessary cleaning supplies unless specified otherwise.</p>
+            </div>
+
+            <div className="border-b pb-4">
+              <h3 className="text-lg font-semibold">Can I reschedule my appointment?</h3>
+              <p className="text-gray-700">Yes, appointments can be rescheduled with at least 24 hours' notice.</p>
+            </div>
+
+            <div className="border-b pb-4">
+              <h3 className="text-lg font-semibold">What types of cleaning services do you offer?</h3>
+              <p className="text-gray-700">We offer residential cleaning, commercial cleaning, and specialized cleaning services.</p>
             </div>
           </div>
         </div>
