@@ -338,6 +338,30 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <div className="section-padding bg-background">
+        <div className="section-container">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            className="text-center mb-16"
+          >
+            <motion.div variants={fadeUp} custom={0} className="tag-pill mb-4 mx-auto">How to Book</motion.div>
+            <motion.h2 variants={fadeUp} custom={1} className="text-4xl sm:text-5xl font-display font-bold mb-4">How to Book</motion.h2>
+            <motion.div variants={fadeUp} custom={2} className="divider-gradient mx-auto" />
+          </motion.div>
+          
+          <div className="p-6 bg-white shadow-md rounded-lg">
+            <ol className="list-decimal list-inside space-y-2">
+              <li className="text-lg">Choose your service.</li>
+              <li className="text-lg">Select your date and time.</li>
+              <li className="text-lg">Enter your details.</li>
+              <li className="text-lg">Confirm your booking.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 };
