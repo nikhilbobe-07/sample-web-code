@@ -338,6 +338,23 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      {/* About Us Section */}
+      <section id="about-us" className="py-10 bg-gray-100">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-4">About Us</h2>
+          <p className="text-lg text-center mb-4">
+            SparkClean was founded in 2020 and has grown to a team of 50 dedicated professionals.
+          </p>
+          <h3 className="text-2xl font-semibold mb-2">Our Certifications</h3>
+          <ul className="list-disc list-inside mb-4">
+            <li>ISO 9001 Certified</li>
+            <li>Green Business Certification</li>
+            <li>Safety Management System Certified</li>
+          </ul>
+        </div>
+      </section>
+      {/* End of About Us Section */}
     </Layout>
   );
 };
