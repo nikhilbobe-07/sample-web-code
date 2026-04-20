@@ -15,6 +15,20 @@ const fadeUp = {
   }),
 };
 
+const HowToBook = () => {
+  return (
+    <div className="p-6 bg-white shadow-md rounded-lg">
+      <h2 className="text-2xl font-bold mb-4">How to Book</h2>
+      <ol className="list-decimal list-inside space-y-2">
+        <li className="text-lg">Choose your service.</li>
+        <li className="text-lg">Select your date and time.</li>
+        <li className="text-lg">Enter your details.</li>
+        <li className="text-lg">Confirm your booking.</li>
+      </ol>
+    </div>
+  );
+};
+
 const Index = () => {
   const services = [
     { name: "Regular Cleaning", desc: "Keep your home fresh and tidy with our regular cleaning service tailored for busy families.", img: serviceRegular },
@@ -338,6 +352,8 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <HowToBook />
     </Layout>
   );
 };
