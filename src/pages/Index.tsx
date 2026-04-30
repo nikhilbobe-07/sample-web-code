@@ -327,13 +327,17 @@ const Index = () => {
           </motion.div>
 
           <div className="faq-section">
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">How do I schedule a cleaning service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890.</p>
+            <div className="faq-item border-b-2 pb-2">
+              <h3 className="font-semibold text-lg">Q1: What services does Spark Clean offer?</h3>
+              <p>A1: Spark Clean offers a variety of cleaning services including residential, commercial, and specialty cleaning tailored to your needs.</p>
             </div>
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
+            <div className="faq-item border-b-2 pb-2">
+              <h3 className="font-semibold text-lg">Q2: How can I book a cleaning service?</h3>
+              <p>A2: You can book a cleaning service by visiting our booking page or contacting us directly via phone or email.</p>
+            </div>
+            <div className="faq-item border-b-2 pb-2">
+              <h3 className="font-semibold text-lg">Q3: Are your cleaning products safe for pets?</h3>
+              <p>A3: Yes, we use eco-friendly cleaning products that are safe for both pets and children.</p>
             </div>
           </div>
         </div>
