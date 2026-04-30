@@ -326,14 +326,26 @@ const Index = () => {
             <motion.div variants={fadeUp} custom={2} className="divider-gradient mx-auto" />
           </motion.div>
 
-          <div className="faq-section">
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">How do I schedule a cleaning service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890.</p>
+          <div className="space-y-4">
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-xl font-semibold">What services does SparkClean offer?</h3>
+              <p className="mt-2">SparkClean offers residential and commercial cleaning services, including deep cleaning, regular maintenance, and post-event cleaning.</p>
             </div>
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-xl font-semibold">How do I schedule a cleaning?</h3>
+              <p className="mt-2">You can schedule a cleaning through our website or by calling our customer service team. Simply choose your preferred date and time.</p>
+            </div>
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-xl font-semibold">What are your payment options?</h3>
+              <p className="mt-2">We accept various payment options, including credit cards, PayPal, and direct bank transfers for your convenience.</p>
+            </div>
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-xl font-semibold">Do you offer eco-friendly cleaning products?</h3>
+              <p className="mt-2">Yes, we provide eco-friendly cleaning options to ensure a safe and healthy environment for you and your loved ones.</p>
+            </div>
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-xl font-semibold">What should I do before a cleaning appointment?</h3>
+              <p className="mt-2">Please ensure that personal items are put away and that our cleaning team has access to all areas that need to be cleaned.</p>
             </div>
           </div>
         </div>
