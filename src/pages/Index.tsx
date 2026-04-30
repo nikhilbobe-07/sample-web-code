@@ -30,101 +30,52 @@ const Index = () => {
             {
               "@context": "http://schema.org",
               "@type": "LocalBusiness",
-              "name": "SparkClean",
+              "name": "Spark Clean",
               "image": "https://sparkclean-geo-aeo.lovable.app/logo.png",
               "@id": "https://sparkclean-geo-aeo.lovable.app",
               "url": "https://sparkclean-geo-aeo.lovable.app",
-              "telephone": "+1234567890",
+              "telephone": "[Your Business Phone Number]",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "123 Cleaning St.",
-                "addressLocality": "Clean City",
-                "addressRegion": "CC",
-                "postalCode": "12345",
-                "addressCountry": "US"
+                "streetAddress": "[Your Business Address]",
+                "addressLocality": "[City]",
+                "addressRegion": "[State]",
+                "postalCode": "[Zip Code]",
+                "addressCountry": "[Country]"
               },
-              "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
-              "priceRange": "$$",
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 40.7128,
-                "longitude": -74.0060
-              },
+              "openingHours": "Mo-Fr 09:00-17:00",
               "sameAs": [
-                "https://www.facebook.com/sparkclean",
-                "https://twitter.com/sparkclean"
-              ]
-            }
-          `}
-        </script>
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "http://schema.org",
-              "@type": "Service",
-              "serviceType": "Residential Cleaning",
-              "provider": {
-                "@type": "LocalBusiness",
-                "name": "SparkClean",
+                "https://www.facebook.com/yourbusiness",
+                "https://twitter.com/yourbusiness"
+              ],
+              "serviceArea": {
+                "@type": "Place",
                 "address": {
                   "@type": "PostalAddress",
-                  "streetAddress": "123 Cleaning St.",
-                  "addressLocality": "Clean City",
-                  "addressRegion": "CC",
-                  "postalCode": "12345",
-                  "addressCountry": "US"
+                  "addressLocality": "[Service Area City]",
+                  "addressRegion": "[Service Area State]"
                 }
               },
-              "areaServed": {
-                "@type": "Place",
-                "name": "Clean City"
-              }
-            }
-          `}
-        </script>
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [{
-                "@type": "Question",
-                "name": "What cleaning services do you offer?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We offer residential and commercial cleaning services."
+              "offers": [
+                {
+                  "@type": "Service",
+                  "name": "House Cleaning",
+                  "description": "Comprehensive house cleaning services to make your home sparkle.",
+                  "provider": {
+                    "@type": "LocalBusiness",
+                    "name": "Spark Clean"
+                  }
+                },
+                {
+                  "@type": "Service",
+                  "name": "Office Cleaning",
+                  "description": "Professional office cleaning to maintain a clean and productive environment.",
+                  "provider": {
+                    "@type": "LocalBusiness",
+                    "name": "Spark Clean"
+                  }
                 }
-              }, {
-                "@type": "Question",
-                "name": "How can I book a cleaning service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "You can book our services via our website or by calling us directly."
-                }
-              }]
-            }
-          `}
-        </script>
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [{
-                "@type": "Question",
-                "name": "How do I schedule a cleaning service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890."
-                }
-              }, {
-                "@type": "Question",
-                "name": "What areas do you service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We currently provide services in the greater metropolitan area. Please check our service area map for more details."
-                }
-              }]
+              ]
             }
           `}
         </script>
@@ -152,7 +103,7 @@ const Index = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold text-primary-foreground mb-6 leading-[1.1]"
           >
-            Welcome to SparkClean
+            Welcome to Spark Clean
           </motion.h1>
           
           <motion.p
