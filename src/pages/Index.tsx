@@ -17,9 +17,21 @@ const fadeUp = {
 
 const Index = () => {
   const services = [
-    { name: "Regular Cleaning", desc: "Keep your home fresh and tidy with our regular cleaning service tailored for busy families.", img: serviceRegular },
-    { name: "Deep Cleaning", desc: "A thorough top-to-bottom clean that reaches every corner of your home for a fresh start.", img: serviceDeep },
-    { name: "Move-in/Move-out Cleaning", desc: "Ensure your new home is spotless before you move in, or leave your old home in perfect condition.", img: serviceMovein },
+    { 
+      name: "Regular Cleaning", 
+      desc: "Our Regular Cleaning service includes comprehensive dusting, vacuuming, mopping, and thorough bathroom sanitization. We offer flexible scheduling options, allowing you to choose weekly or bi-weekly sessions to maintain a fresh and clean environment in your home.", 
+      img: serviceRegular 
+    },
+    { 
+      name: "Deep Cleaning", 
+      desc: "Experience a meticulous Deep Cleaning that covers every corner of your home. This service includes detailed cleaning of baseboards, windows, and hard-to-reach areas, ensuring a spotless environment. Ideal for seasonal cleaning or before special events, our team uses eco-friendly products for a safe and effective clean.", 
+      img: serviceDeep 
+    },
+    { 
+      name: "Move-In/Move-Out Cleaning", 
+      desc: "Our Move-In/Move-Out Cleaning service is perfect for those transitioning between homes. We ensure every surface is pristine, including kitchen appliances, cabinets, and bathrooms. This thorough clean prepares your new home for your arrival or makes your former residence ready for the next occupants.", 
+      img: serviceMovein 
+    },
   ];
 
   return (
