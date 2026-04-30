@@ -326,14 +326,38 @@ const Index = () => {
             <motion.div variants={fadeUp} custom={2} className="divider-gradient mx-auto" />
           </motion.div>
 
-          <div className="faq-section">
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">How do I schedule a cleaning service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890.</p>
+          <div className="space-y-4">
+            <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+              <h3 className="font-semibold">How often should I book regular cleaning?</h3>
+              <p className="mt-2 text-gray-700">We recommend booking a cleaning every 2-4 weeks for optimal maintenance.</p>
             </div>
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
+            <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+              <h3 className="font-semibold">What products do you use?</h3>
+              <p className="mt-2 text-gray-700">We use eco-friendly and non-toxic cleaning products to ensure your safety and health.</p>
+            </div>
+            <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+              <h3 className="font-semibold">Do you offer same-day booking?</h3>
+              <p className="mt-2 text-gray-700">Yes, we do offer same-day booking based on availability. Please contact us for details.</p>
+            </div>
+            <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+              <h3 className="font-semibold">What are your service hours?</h3>
+              <p className="mt-2 text-gray-700">Our services are available from 8 AM to 8 PM, Monday to Saturday.</p>
+            </div>
+            <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+              <h3 className="font-semibold">How do I prepare for a cleaning service?</h3>
+              <p className="mt-2 text-gray-700">Please ensure that any valuables are secured and that pets are in a safe area.</p>
+            </div>
+            <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+              <h3 className="font-semibold">Are your cleaners insured and background-checked?</h3>
+              <p className="mt-2 text-gray-700">Yes, all our cleaners are fully insured and have undergone thorough background checks.</p>
+            </div>
+            <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+              <h3 className="font-semibold">What payment methods do you accept?</h3>
+              <p className="mt-2 text-gray-700">We accept all major credit cards, PayPal, and cash payments.</p>
+            </div>
+            <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+              <h3 className="font-semibold">Can I reschedule or cancel my cleaning appointment?</h3>
+              <p className="mt-2 text-gray-700">Yes, you can reschedule or cancel your appointment with a minimum of 24 hours' notice.</p>
             </div>
           </div>
         </div>
