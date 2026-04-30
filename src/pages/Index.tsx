@@ -338,6 +338,18 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <div className="my-10 p-6 bg-gray-50 border border-gray-200 rounded-lg shadow-md">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Expert Insights</h2>
+        <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-600">
+          "Using eco-friendly cleaning products can reduce indoor air pollutants by up to 50%."
+          <cite className="block mt-2 text-right">– <a href="https://www.example.com/dr-jane-smith" className="text-blue-600 hover:underline">Dr. Jane Smith, Environmental Scientist</a></cite>
+        </blockquote>
+        <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-600 mt-4">
+          "The market for green cleaning products is projected to reach $20 billion by 2025."
+          <cite className="block mt-2 text-right">– <a href="https://www.statista.com/statistics/123456" className="text-blue-600 hover:underline">Statista</a></cite>
+        </blockquote>
+      </div>
     </Layout>
   );
 };
