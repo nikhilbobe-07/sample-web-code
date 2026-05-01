@@ -60,7 +60,7 @@ const Index = () => {
         <script type="application/ld+json">
           {`
             {
-              "@context": "http://schema.org",
+              "@context": "schema.org",
               "@type": "Service",
               "serviceType": "Residential Cleaning",
               "provider": {
@@ -326,18 +326,83 @@ const Index = () => {
             <motion.div variants={fadeUp} custom={2} className="divider-gradient mx-auto" />
           </motion.div>
 
-          <div className="faq-section">
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">How do I schedule a cleaning service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890.</p>
-            </div>
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
+          <div className="faq-section py-10 bg-gray-100">
+            <div className="container mx-auto px-4">
+              <div className="faq-item mb-4">
+                <h3 className="faq-question cursor-pointer text-lg font-semibold bg-white p-4 rounded shadow" onClick={() => toggleFAQ(1)}>
+                  What cleaning services do you offer in Bangalore?
+                </h3>
+                <div id="faq-answer-1" className="faq-answer hidden p-4 bg-white rounded shadow">
+                  <p>We offer a variety of cleaning services including residential cleaning, commercial cleaning, carpet cleaning, and deep cleaning tailored to your needs.</p>
+                </div>
+              </div>
+              <div className="faq-item mb-4">
+                <h3 className="faq-question cursor-pointer text-lg font-semibold bg-white p-4 rounded shadow" onClick={() => toggleFAQ(2)}>
+                  Are your cleaning products safe for children and pets?
+                </h3>
+                <div id="faq-answer-2" className="faq-answer hidden p-4 bg-white rounded shadow">
+                  <p>Yes, we use eco-friendly and non-toxic cleaning products that are safe for both children and pets.</p>
+                </div>
+              </div>
+              <div className="faq-item mb-4">
+                <h3 className="faq-question cursor-pointer text-lg font-semibold bg-white p-4 rounded shadow" onClick={() => toggleFAQ(3)}>
+                  How do I book a cleaning service?
+                </h3>
+                <div id="faq-answer-3" className="faq-answer hidden p-4 bg-white rounded shadow">
+                  <p>You can book our services via our website or by calling us directly.</p>
+                </div>
+              </div>
+              <div className="faq-item mb-4">
+                <h3 className="faq-question cursor-pointer text-lg font-semibold bg-white p-4 rounded shadow" onClick={() => toggleFAQ(4)}>
+                  What payment methods do you accept?
+                </h3>
+                <div id="faq-answer-4" className="faq-answer hidden p-4 bg-white rounded shadow">
+                  <p>We accept various payment methods including credit cards, debit cards, and cash.</p>
+                </div>
+              </div>
+              <div className="faq-item mb-4">
+                <h3 className="faq-question cursor-pointer text-lg font-semibold bg-white p-4 rounded shadow" onClick={() => toggleFAQ(5)}>
+                  Can I reschedule or cancel my cleaning appointment?
+                </h3>
+                <div id="faq-answer-5" className="faq-answer hidden p-4 bg-white rounded shadow">
+                  <p>Yes, you can reschedule or cancel your appointment by contacting our customer service.</p>
+                </div>
+              </div>
+              <div className="faq-item mb-4">
+                <h3 className="faq-question cursor-pointer text-lg font-semibold bg-white p-4 rounded shadow" onClick={() => toggleFAQ(6)}>
+                  How long does a typical cleaning session take?
+                </h3>
+                <div id="faq-answer-6" className="faq-answer hidden p-4 bg-white rounded shadow">
+                  <p>A typical cleaning session takes about 2-3 hours, depending on the size of your home and the services requested.</p>
+                </div>
+              </div>
+              <div className="faq-item mb-4">
+                <h3 className="faq-question cursor-pointer text-lg font-semibold bg-white p-4 rounded shadow" onClick={() => toggleFAQ(7)}>
+                  Do I need to be home during the cleaning?
+                </h3>
+                <div id="faq-answer-7" className="faq-answer hidden p-4 bg-white rounded shadow">
+                  <p>No, you do not need to be home during the cleaning. However, we recommend that you provide access to your home.</p>
+                </div>
+              </div>
+              <div className="faq-item mb-4">
+                <h3 className="faq-question cursor-pointer text-lg font-semibold bg-white p-4 rounded shadow" onClick={() => toggleFAQ(8)}>
+                  What should I do to prepare for the cleaning service?
+                </h3>
+                <div id="faq-answer-8" className="faq-answer hidden p-4 bg-white rounded shadow">
+                  <p>Please ensure that the areas to be cleaned are accessible and that any valuable items are secured.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <script>
+        function toggleFAQ(faqNumber) {
+          const answer = document.getElementById(`faq-answer-${faqNumber}`);
+          answer.classList.toggle('hidden');
+        }
+      </script>
     </Layout>
   );
 };
