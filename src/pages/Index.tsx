@@ -25,6 +25,8 @@ const Index = () => {
   return (
     <Layout>
       <head>
+        <title>Cleaning Services in Bangalore | Spark Clean</title>
+        <meta name="description" content="Professional cleaning services in Bangalore for homes and offices. Contact Spark Clean for a quote today!" />
         <script type="application/ld+json">
           {`
             {
@@ -150,9 +152,9 @@ const Index = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold text-primary-foreground mb-6 leading-[1.1]"
+            className="text-3xl font-bold text-center mt-6"
           >
-            Welcome to SparkClean
+            Cleaning Services in Bangalore
           </motion.h1>
           
           <motion.p
