@@ -105,29 +105,6 @@ const Index = () => {
             }
           `}
         </script>
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [{
-                "@type": "Question",
-                "name": "How do I schedule a cleaning service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890."
-                }
-              }, {
-                "@type": "Question",
-                "name": "What areas do you service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We currently provide services in the greater metropolitan area. Please check our service area map for more details."
-                }
-              }]
-            }
-          `}
-        </script>
       </head>
       <div className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
         <img src={heroImage} alt="Living room with modern decor and furniture" className="absolute inset-0 w-full h-full object-cover scale-105" />
