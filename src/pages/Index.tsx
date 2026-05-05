@@ -152,7 +152,7 @@ const Index = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold text-primary-foreground mb-6 leading-[1.1]"
           >
-            Welcome to SparkClean
+            Professional Home Cleaning Services in Bangalore
           </motion.h1>
           
           <motion.p
