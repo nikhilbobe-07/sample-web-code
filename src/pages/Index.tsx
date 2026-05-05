@@ -326,14 +326,40 @@ const Index = () => {
             <motion.div variants={fadeUp} custom={2} className="divider-gradient mx-auto" />
           </motion.div>
 
-          <div className="faq-section">
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">How do I schedule a cleaning service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890.</p>
-            </div>
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
+          <div className="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-lg">
+            <div className="space-y-4">
+              <div className="faq-item">
+                <h3 className="font-semibold text-lg">What services does Spark Clean offer?</h3>
+                <p className="text-gray-700">We offer a variety of cleaning services including residential cleaning, commercial cleaning, and specialized cleaning services.</p>
+              </div>
+              <div className="faq-item">
+                <h3 className="font-semibold text-lg">How can I schedule a cleaning service?</h3>
+                <p className="text-gray-700">You can schedule a cleaning service by visiting our website or calling our customer service.</p>
+              </div>
+              <div className="faq-item">
+                <h3 className="font-semibold text-lg">What areas do you serve?</h3>
+                <p className="text-gray-700">We serve multiple areas including downtown, suburbs, and surrounding regions. Check our website for a full list.</p>
+              </div>
+              <div className="faq-item">
+                <h3 className="font-semibold text-lg">What are your pricing options?</h3>
+                <p className="text-gray-700">Our pricing depends on the type of service and the size of the property. Please contact us for a quote.</p>
+              </div>
+              <div className="faq-item">
+                <h3 className="font-semibold text-lg">Do you provide eco-friendly cleaning products?</h3>
+                <p className="text-gray-700">Yes, we prioritize eco-friendly products to ensure a safe environment for you and your family.</p>
+              </div>
+              <div className="faq-item">
+                <h3 className="font-semibold text-lg">How do I prepare for a cleaning appointment?</h3>
+                <p className="text-gray-700">Please ensure access to all areas that need cleaning and remove any valuable items.</p>
+              </div>
+              <div className="faq-item">
+                <h3 className="font-semibold text-lg">What is your cancellation policy?</h3>
+                <p className="text-gray-700">You can cancel your appointment up to 24 hours in advance without any fees.</p>
+              </div>
+              <div className="faq-item">
+                <h3 className="font-semibold text-lg">Are your cleaners insured and background-checked?</h3>
+                <p className="text-gray-700">Yes, all our cleaners are fully insured and have undergone thorough background checks.</p>
+              </div>
             </div>
           </div>
         </div>
