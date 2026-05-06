@@ -338,6 +338,44 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <div className="section-padding bg-background">
+        <div className="section-container">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            className="text-center mb-16"
+          >
+            <motion.div variants={fadeUp} custom={0} className="tag-pill mb-4 mx-auto">Why Choose Us</motion.div>
+            <motion.h2 variants={fadeUp} custom={1} className="text-4xl sm:text-5xl font-display font-bold mb-4">Why Choose Us</motion.h2>
+            <motion.div variants={fadeUp} custom={2} className="divider-gradient mx-auto" />
+          </motion.div>
+
+          <div className="container mx-auto text-center">
+            <ul className="list-disc list-inside space-y-4">
+              <li className="text-lg">
+                <strong>15+ Years of Experience:</strong> We bring extensive industry knowledge to every job.
+              </li>
+              <li className="text-lg">
+                <strong>Eco-Friendly Products:</strong> We prioritize sustainability in our cleaning solutions.
+              </li>
+              <li className="text-lg">
+                <strong>100% Satisfaction Guarantee:</strong> Your happiness is our top priority; we won't stop until you're satisfied.
+              </li>
+              <li className="text-lg">
+                <strong>Highly Trained Professionals:</strong> Our team is rigorously trained and certified for quality assurance.
+              </li>
+              <li className="text-lg">
+                <strong>Competitive Pricing:</strong> Exceptional service at prices that won’t break the bank.
+              </li>
+              <li className="text-lg">
+                <strong>Comprehensive Service Offerings:</strong> We cater to all your cleaning needs under one roof.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 };
