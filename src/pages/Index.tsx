@@ -338,6 +338,16 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <section id="about-us" className="bg-white p-8">
+        <h2 className="text-2xl font-bold mb-4">About Us</h2>
+        <p className="text-gray-700 mb-2">
+          Founded in [Year], SparkClean began with a simple idea: to provide eco-friendly cleaning solutions that not only clean but also protect our planet. Our passion for sustainability drives us to innovate and offer products that are safe for both families and the environment.
+        </p>
+        <p className="text-gray-700">
+          Our mission is to revolutionize the cleaning industry by offering high-quality, environmentally friendly products that empower consumers to make sustainable choices in their everyday lives.
+        </p>
+      </section>
     </Layout>
   );
 };
