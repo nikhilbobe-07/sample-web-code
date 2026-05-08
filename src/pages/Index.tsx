@@ -338,6 +338,26 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <div className="mt-4 text-gray-500 text-sm">
+        <p>Last updated: <span className="font-semibold">October 1, 2023</span></p>
+      </div>
+
+      <div className="mt-6">
+        <h2 className="text-lg font-bold">Recent Customer Reviews</h2>
+        <div className="space-y-4 mt-2">
+          <div className="border p-4 rounded-lg shadow-sm">
+            <p className="font-semibold">John Doe</p>
+            <p className="text-gray-700">"Great service, very satisfied!"</p>
+            <p className="text-gray-500 text-sm">Reviewed on: <span className="font-semibold">September 28, 2023</span></p>
+          </div>
+          <div className="border p-4 rounded-lg shadow-sm">
+            <p className="font-semibold">Jane Smith</p>
+            <p className="text-gray-700">"I loved the quick response time!"</p>
+            <p className="text-gray-500 text-sm">Reviewed on: <span className="font-semibold">September 30, 2023</span></p>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 };
