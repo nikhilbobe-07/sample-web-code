@@ -338,6 +338,30 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <div className="section-padding bg-gray-100">
+        <div className="section-container">
+          <h2 className="text-3xl font-bold mb-6 text-center">How It Works</h2>
+          <ol className="list-decimal list-inside space-y-4">
+            <li className="bg-white p-4 shadow rounded-lg">
+              <h3 className="font-semibold">Step 1: Choose Your Service</h3>
+              <p>Select the cleaning service that fits your needs from our offerings.</p>
+            </li>
+            <li className="bg-white p-4 shadow rounded-lg">
+              <h3 className="font-semibold">Step 2: Schedule a Time</h3>
+              <p>Pick a convenient time for your cleaning appointment.</p>
+            </li>
+            <li className="bg-white p-4 shadow rounded-lg">
+              <h3 className="font-semibold">Step 3: Get Confirmation</h3>
+              <p>Receive a confirmation email with the details of your booking.</p>
+            </li>
+            <li className="bg-white p-4 shadow rounded-lg">
+              <h3 className="font-semibold">Step 4: Enjoy Your Clean Space</h3>
+              <p>Relax while our professionals take care of your cleaning needs!</p>
+            </li>
+          </ol>
+        </div>
+      </div>
     </Layout>
   );
 };
