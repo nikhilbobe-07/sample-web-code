@@ -335,6 +335,14 @@ const Index = () => {
               <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
               <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
             </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">What cleaning services do you offer?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">We offer residential and commercial cleaning services.</p>
+            </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">How can I book a cleaning service?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">You can book our services via our website or by calling us directly.</p>
+            </div>
           </div>
         </div>
       </div>
