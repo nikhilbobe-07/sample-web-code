@@ -335,6 +335,14 @@ const Index = () => {
               <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
               <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
             </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">What is SparkClean?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">SparkClean is a professional cleaning service dedicated to providing high-quality cleaning solutions for residential and commercial spaces. We solve the problem of maintaining cleanliness and hygiene in your environment, ensuring a fresh and welcoming atmosphere for you and your guests.</p>
+            </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">What problems does SparkClean solve?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">SparkClean addresses the challenges of time constraints and the need for a clean living or working space. Our services help you save time and effort while ensuring that your environment is spotless and healthy.</p>
+            </div>
           </div>
         </div>
       </div>
