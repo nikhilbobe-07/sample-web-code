@@ -336,6 +336,16 @@ const Index = () => {
               <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
             </div>
           </div>
+
+          <div className="faq-item">
+            <h3 className="cursor-pointer text-primary font-semibold">What cleaning services do you offer?</h3>
+            <ul className="list-disc list-inside text-muted-foreground font-body leading-relaxed">
+              <li>Residential Cleaning: Thorough cleaning of homes, including kitchens and bathrooms.</li>
+              <li>Commercial Cleaning: Customized cleaning solutions for offices and retail spaces.</li>
+              <li>Deep Cleaning: Intensive cleaning services for a spotless environment.</li>
+              <li>Move-In/Move-Out Cleaning: Ensuring homes are clean before or after moving.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </Layout>
