@@ -335,6 +335,14 @@ const Index = () => {
               <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
               <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
             </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">What are your pricing ranges?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">Our pricing ranges from $100 to $300 depending on the type of service and the size of the property.</p>
+            </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">Do you offer discounts for recurring services?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">Yes, we offer discounts for customers who book our services on a recurring basis. Please contact us for more details.</p>
+            </div>
           </div>
         </div>
       </div>
