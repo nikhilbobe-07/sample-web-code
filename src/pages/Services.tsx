@@ -97,6 +97,41 @@ const Services = () => {
           </div>
         </div>
       </div>
+
+      {/* Team Section for E-E-A-T Enhancement */}
+      <section className="bg-gray-100 py-8">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-6">Meet Our Team</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            {/* Team Member 1 */}
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <img src="path/to/photo1.jpg" alt="Author Name" className="w-full h-48 object-cover rounded-t-lg" />
+              <h3 className="text-xl font-semibold mt-4">Author Name</h3>
+              <p className="text-gray-600">Position</p>
+              <p className="text-gray-700 mt-2">Brief bio about the author. Include expertise, experience, and how they contribute to the services provided.</p>
+            </div>
+
+            {/* Team Member 2 */}
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <img src="path/to/photo2.jpg" alt="Author Name" className="w-full h-48 object-cover rounded-t-lg" />
+              <h3 className="text-xl font-semibold mt-4">Author Name</h3>
+              <p className="text-gray-600">Position</p>
+              <p className="text-gray-700 mt-2">Brief bio about the author. Include expertise, experience, and how they contribute to the services provided.</p>
+            </div>
+
+            {/* Team Member 3 */}
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <img src="path/to/photo3.jpg" alt="Author Name" className="w-full h-48 object-cover rounded-t-lg" />
+              <h3 className="text-xl font-semibold mt-4">Author Name</h3>
+              <p className="text-gray-600">Position</p>
+              <p className="text-gray-700 mt-2">Brief bio about the author. Include expertise, experience, and how they contribute to the services provided.</p>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
     </Layout>
   );
 };
