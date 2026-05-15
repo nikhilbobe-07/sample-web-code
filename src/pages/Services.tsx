@@ -17,31 +17,46 @@ const fadeUp = {
 const services = [
   {
     title: "Regular Cleaning",
-    desc: "Our regular cleaning service keeps your home fresh and tidy. We handle dusting, vacuuming, mopping, and surface cleaning.",
+    desc: [
+      "Our regular cleaning service keeps your home fresh and tidy.",
+      "We handle dusting, vacuuming, mopping, and surface cleaning."
+    ],
     price: "From ₹799",
     img: serviceRegular,
   },
   {
     title: "Deep Cleaning",
-    desc: "Deep cleaning is a thorough top-to-bottom clean of your entire home. Perfect for seasonal cleaning or move-in preparation.",
+    desc: [
+      "Deep cleaning is a thorough top-to-bottom clean of your entire home.",
+      "Perfect for seasonal cleaning or move-in preparation."
+    ],
     price: "From ₹1,999",
     img: serviceDeep,
   },
   {
     title: "Move-in/Move-out Cleaning",
-    desc: "We ensure your new home is spotless before you move in. Our team handles every corner for a complete clean.",
+    desc: [
+      "We ensure your new home is spotless before you move in.",
+      "Our team handles every corner for a complete clean."
+    ],
     price: "From ₹2,499",
     img: serviceMovein,
   },
   {
     title: "Sofa & Carpet Cleaning",
-    desc: "Professional sofa and carpet cleaning removes stains and odours. We use safe cleaning solutions for all fabric types.",
+    desc: [
+      "Professional sofa and carpet cleaning removes stains and odours.",
+      "We use safe cleaning solutions for all fabric types."
+    ],
     price: "From ₹599 per item",
     img: serviceSofa,
   },
   {
     title: "Office Cleaning",
-    desc: "Keep your workplace clean and professional with our office cleaning service. Available for daily, weekly, or monthly contracts.",
+    desc: [
+      "Keep your workplace clean and professional with our office cleaning service.",
+      "Available for daily, weekly, or monthly contracts."
+    ],
     price: "Custom quote",
     img: serviceOffice,
     hasSubheading: true,
@@ -83,7 +98,11 @@ const Services = () => {
                   <div className={`${i % 2 === 1 ? "lg:order-1" : ""}`}>
                     <h2 className="text-3xl sm:text-4xl font-display font-bold mb-4">{s.title}</h2>
                     <div className="divider-gradient mb-6" />
-                    <div className="text-muted-foreground font-body text-base leading-relaxed mb-6">{s.desc}</div>
+                    <ul className="list-disc pl-5 space-y-2 text-muted-foreground font-body text-base leading-relaxed mb-6">
+                      {s.desc.map((item, index) => (
+                        <li key={index}>{item}</li>
+                      ))}
+                    </ul>
                     <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary/10 text-primary font-bold font-body text-lg">
                       {s.price}
                     </div>
