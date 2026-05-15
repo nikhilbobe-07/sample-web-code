@@ -97,6 +97,82 @@ const Services = () => {
           </div>
         </div>
       </div>
+
+      {/* FAQ Section */}
+      <div className="faq-section bg-white p-6 rounded-lg shadow-md mt-12">
+        <h2 className="text-xl font-bold mb-4">Frequently Asked Questions</h2>
+        <div className="faq-item mb-4">
+          <h3 className="text-lg font-semibold">What services do you offer?</h3>
+          <p className="text-gray-700">We offer a variety of cleaning services, including residential, commercial, and specialized cleaning.</p>
+        </div>
+        <div className="faq-item mb-4">
+          <h3 className="text-lg font-semibold">How do I book a service?</h3>
+          <p className="text-gray-700">You can book a service by visiting our website and filling out the booking form or by calling us directly.</p>
+        </div>
+        <div className="faq-item mb-4">
+          <h3 className="text-lg font-semibold">What areas do you service?</h3>
+          <p className="text-gray-700">We service several areas, including [City A], [City B], and surrounding regions.</p>
+        </div>
+        <div className="faq-item mb-4">
+          <h3 className="text-lg font-semibold">What are your payment options?</h3>
+          <p className="text-gray-700">We accept major credit cards, PayPal, and direct bank transfers.</p>
+        </div>
+        <div className="faq-item mb-4">
+          <h3 className="text-lg font-semibold">Do you provide guarantees for your services?</h3>
+          <p className="text-gray-700">Yes, we offer a satisfaction guarantee for all our cleaning services.</p>
+        </div>
+      </div>
+
+      <script type="application/ld+json">
+      {`
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What services do you offer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We offer a variety of cleaning services, including residential, commercial, and specialized cleaning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I book a service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can book a service by visiting our website and filling out the booking form or by calling us directly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What areas do you service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We service several areas, including [City A], [City B], and surrounding regions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are your payment options?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We accept major credit cards, PayPal, and direct bank transfers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide guarantees for your services?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, we offer a satisfaction guarantee for all our cleaning services."
+            }
+          }
+        ]
+      }
+      `}
+      </script>
     </Layout>
   );
 };
