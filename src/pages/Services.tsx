@@ -97,6 +97,36 @@ const Services = () => {
           </div>
         </div>
       </div>
+
+      {/* Meet the Experts Section */}
+      <section className="bg-gray-50 py-10">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">Meet Our Experts</h2>
+          <p className="text-lg mb-10">Our team of cleaning specialists are highly trained and certified to ensure your space is spotless.</p>
+          <div className="flex flex-wrap justify-center">
+            {/* Expert Card */}
+            <div className="max-w-xs mx-4 mb-8 bg-white rounded-lg shadow-lg">
+              <img className="rounded-t-lg h-48 w-full object-cover" src="https://example.com/images/john-doe.jpg" alt="John Doe" />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold">John Doe</h3>
+                <p className="text-gray-700">John is a certified cleaning specialist with over 10 years of experience in residential and commercial cleaning.</p>
+                <p className="mt-2 text-sm text-gray-500">Specialization: Deep Cleaning, Carpet Care</p>
+                <a href="https://example.com/certifications/john-doe" className="text-blue-500 hover:underline">View Certification</a>
+              </div>
+            </div>
+            {/* Repeat for each expert */}
+            <div className="max-w-xs mx-4 mb-8 bg-white rounded-lg shadow-lg">
+              <img className="rounded-t-lg h-48 w-full object-cover" src="https://example.com/images/jane-smith.jpg" alt="Jane Smith" />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold">Jane Smith</h3>
+                <p className="text-gray-700">Jane is an expert in eco-friendly cleaning solutions with over 8 years of experience.</p>
+                <p className="mt-2 text-sm text-gray-500">Specialization: Eco-Friendly Cleaning, Office Cleaning</p>
+                <a href="https://example.com/certifications/jane-smith" className="text-blue-500 hover:underline">View Certification</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 };
