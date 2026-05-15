@@ -97,6 +97,23 @@ const Services = () => {
           </div>
         </div>
       </div>
+
+      {/* FAQ Section */}
+      <section className="faq-section bg-gray-100 p-6 rounded-lg">
+        <h2 className="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
+        <div className="faq-item mb-4">
+          <h3 className="text-lg font-semibold">What services do you offer?</h3>
+          <p className="text-gray-700">We offer a variety of cleaning services including residential, commercial, and specialized cleaning solutions.</p>
+        </div>
+        <div className="faq-item mb-4">
+          <h3 className="text-lg font-semibold">How can I book a service?</h3>
+          <p className="text-gray-700">You can book a service by visiting our website and filling out the booking form or by calling our customer service.</p>
+        </div>
+        <div className="faq-item mb-4">
+          <h3 className="text-lg font-semibold">What areas do you serve?</h3>
+          <p className="text-gray-700">We serve multiple areas, including downtown, suburbs, and surrounding regions. Please check our website for a complete list.</p>
+        </div>
+      </section>
     </Layout>
   );
 };
