@@ -326,14 +326,18 @@ const Index = () => {
             <motion.div variants={fadeUp} custom={2} className="divider-gradient mx-auto" />
           </motion.div>
 
-          <div className="faq-section">
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">How do I schedule a cleaning service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890.</p>
+          <div className="faq-section bg-white p-6 rounded-lg shadow-md">
+            <div className="faq-item mb-4">
+              <h3 className="faq-question text-lg font-semibold">What services does SparkClean offer?</h3>
+              <p className="faq-answer mt-2">SparkClean provides a variety of cleaning services including residential deep cleaning, regular house cleaning, and specialized services like carpet and upholstery cleaning. Our trained professionals ensure a spotless environment tailored to your needs.</p>
             </div>
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
+            <div className="faq-item mb-4">
+              <h3 className="faq-question text-lg font-semibold">How can I book a cleaning service?</h3>
+              <p className="faq-answer mt-2">Booking a service with SparkClean is easy! Simply visit our booking page, select your desired service, choose a date and time, and confirm your booking. You will receive a confirmation email shortly after.</p>
+            </div>
+            <div className="faq-item mb-4">
+              <h3 className="faq-question text-lg font-semibold">What areas do you serve?</h3>
+              <p className="faq-answer mt-2">We proudly serve multiple neighborhoods in Bangalore, including Koramangala, Indiranagar, and Jayanagar. For a full list of areas, please refer to our service area page.</p>
             </div>
           </div>
         </div>
