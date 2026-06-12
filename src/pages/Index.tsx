@@ -336,6 +336,16 @@ const Index = () => {
               <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
             </div>
           </div>
+
+          <div className="author-info mt-10">
+            <h3 className="text-2xl font-display font-bold mb-4">About the Author</h3>
+            <p className="text-muted-foreground font-body leading-relaxed">
+              SparkClean is led by a team of experienced cleaning professionals dedicated to providing top-notch cleaning services. Our founder, John Doe, has over 10 years of experience in the cleaning industry and is passionate about delivering exceptional service to our clients.
+            </p>
+            <p className="text-muted-foreground font-body leading-relaxed">
+              Our team is trained in the latest cleaning techniques and uses eco-friendly products to ensure a safe and healthy environment for your home and family.
+            </p>
+          </div>
         </div>
       </div>
     </Layout>
