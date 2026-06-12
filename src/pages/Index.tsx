@@ -335,6 +335,22 @@ const Index = () => {
               <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
               <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
             </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">What is SparkClean?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">SparkClean is a premier cleaning service dedicated to providing top-notch cleaning solutions for residential and commercial properties. Our mission is to ensure a clean, safe, and healthy environment for our clients in Bangalore. We understand that cleanliness is not just about aesthetics; it influences well-being and productivity. Our team of experienced cleaners employs eco-friendly products and advanced techniques to deliver exceptional results tailored to our clients' needs. With a commitment to quality and customer satisfaction, we strive to exceed expectations with every visit.</p>
+            </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">Why choose professional cleaning?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">Choosing professional cleaning services not only saves time but also ensures that every nook and cranny is thoroughly cleaned. Our trained professionals use high-quality products and techniques that guarantee a deep clean.</p>
+            </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">What services do you offer?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">We offer a variety of services including deep cleaning, regular cleaning, and move-in/move-out cleaning. Each service is designed to meet the specific needs of our clients, ensuring a thorough and satisfying cleaning experience.</p>
+            </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">How can I book your services?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">Booking with SparkClean is easy: simply visit our website, choose your service, select a date and time, and confirm your booking. Our user-friendly interface makes the process quick and hassle-free.</p>
+            </div>
           </div>
         </div>
       </div>
