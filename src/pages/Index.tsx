@@ -336,6 +336,21 @@ const Index = () => {
               <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
             </div>
           </div>
+
+          <div className="mt-10 text-center">
+            <h3 className="text-xl font-semibold">Related Articles</h3>
+            <ul className="mt-4 space-y-2">
+              <li>
+                <Link to="/cleaning-tips" className="text-primary hover:underline">10 Essential Cleaning Tips for Your Home</Link>
+              </li>
+              <li>
+                <Link to="/eco-friendly-cleaning" className="text-primary hover:underline">Eco-Friendly Cleaning Products You Should Try</Link>
+              </li>
+              <li>
+                <Link to="/seasonal-cleaning" className="text-primary hover:underline">How to Prepare Your Home for Seasonal Cleaning</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </Layout>
