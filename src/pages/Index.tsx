@@ -335,6 +335,14 @@ const Index = () => {
               <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
               <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
             </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">What certifications do your team members have?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">Our team members are certified in various cleaning techniques and safety protocols, ensuring the highest quality of service.</p>
+            </div>
+            <div className="faq-item">
+              <h3 className="cursor-pointer text-primary font-semibold">Can I request a specific team member for my cleaning?</h3>
+              <p className="text-muted-foreground font-body leading-relaxed">Yes, you can request a specific team member when booking your service, and we will do our best to accommodate your request.</p>
+            </div>
           </div>
         </div>
       </div>
