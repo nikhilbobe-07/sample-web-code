@@ -326,14 +326,18 @@ const Index = () => {
             <motion.div variants={fadeUp} custom={2} className="divider-gradient mx-auto" />
           </motion.div>
 
-          <div className="faq-section">
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">How do I schedule a cleaning service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">You can schedule a cleaning service through our website's booking page or by calling our customer service hotline at (123) 456-7890.</p>
+          <div className="faq-section py-8">
+            <div className="faq-item mb-4">
+              <h3 className="faq-question text-lg font-semibold">What cleaning services does SparkClean offer?</h3>
+              <p className="faq-answer">SparkClean provides a variety of cleaning services including residential cleaning, commercial cleaning, deep cleaning, and move-in/move-out cleaning. Each service is tailored to meet your specific needs and preferences.</p>
             </div>
-            <div className="faq-item">
-              <h3 className="cursor-pointer text-primary font-semibold">What areas do you service?</h3>
-              <p className="text-muted-foreground font-body leading-relaxed">We currently provide services in the greater metropolitan area. Please check our service area map for more details.</p>
+            <div className="faq-item mb-4">
+              <h3 className="faq-question text-lg font-semibold">How do I book a cleaning service with SparkClean?</h3>
+              <p className="faq-answer">Booking a cleaning service is easy! Simply visit our website and fill out the booking form, or call our customer service number. We’ll confirm your appointment and provide you with all the details.</p>
+            </div>
+            <div className="faq-item mb-4">
+              <h3 className="faq-question text-lg font-semibold">Are your cleaning products eco-friendly?</h3>
+              <p className="faq-answer">Yes, at SparkClean, we prioritize the environment. We use eco-friendly cleaning products that are safe for both your family and pets, without compromising on cleanliness.</p>
             </div>
           </div>
         </div>
