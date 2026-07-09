@@ -35,8 +35,33 @@ const About = () => {
             transition={{ duration: 0.5 }}
             className="text-muted-foreground font-body leading-relaxed text-lg mb-20 max-w-3xl"
           >
-            SparkClean is a professional home cleaning company based in Bangalore. We started with a simple goal: to make clean homes accessible and affordable for busy families across the city. Our team of trained cleaners is committed to delivering a high-quality service every time.
+            SparkClean is a professional home cleaning company based in Bangalore. We started with a simple goal: to make clean homes accessible and affordable for busy families across the city. Our team of trained cleaners is committed to delivering a high-quality service every time. We offer a range of services designed to meet the diverse needs of our clients, ensuring that every corner of your home is spotless and inviting.
           </motion.p>
+
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="text-3xl sm:text-4xl font-display font-bold mb-4"
+          >
+            Our Services
+          </motion.h2>
+          <div className="divider-gradient mb-12" />
+          <div className="mb-12">
+            <h3 className="text-2xl font-display font-bold mb-2">Residential Cleaning</h3>
+            <p className="text-muted-foreground font-body leading-relaxed mb-4">
+              Our residential cleaning service is tailored to meet the unique needs of homeowners. We provide thorough cleaning, including dusting, vacuuming, and sanitizing areas that often get overlooked. Our trained professionals use eco-friendly products to ensure a safe environment for your family and pets. Enjoy a sparkling clean home without lifting a finger!
+            </p>
+            <h3 className="text-2xl font-display font-bold mb-2">Commercial Cleaning</h3>
+            <p className="text-muted-foreground font-body leading-relaxed mb-4">
+              Our commercial cleaning services are designed to keep your business environment clean and professional. We understand the importance of a clean workspace, and our team is equipped to handle everything from office cleaning to post-construction cleanup. Let us help you create a welcoming atmosphere for your employees and clients.
+            </p>
+            <h3 className="text-2xl font-display font-bold mb-2">Deep Cleaning</h3>
+            <p className="text-muted-foreground font-body leading-relaxed mb-4">
+              Our deep cleaning service goes beyond the surface to ensure every nook and cranny of your home is spotless. This service is perfect for spring cleaning or preparing for special events. We focus on areas that are often neglected, providing a comprehensive clean that leaves your home refreshed and rejuvenated.
+            </p>
+          </div>
 
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -51,9 +76,9 @@ const About = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             {[
-              { name: "Suresh", title: "Head Cleaner", color: "from-primary/20 to-primary/5" },
-              { name: "Meena", title: "Customer Relations", color: "from-accent/20 to-accent/5" },
-              { name: "Ravi", title: "Operations Lead", color: "from-primary/20 to-primary/5" },
+              { name: "Suresh", title: "Head Cleaner", color: "from-primary/20 to-primary/5", bio: "With over 10 years of experience in the cleaning industry, Suresh leads our team with expertise and dedication. His commitment to quality ensures that every job is done right." },
+              { name: "Meena", title: "Customer Relations", color: "from-accent/20 to-accent/5", bio: "Meena is the friendly face of SparkClean, ensuring our clients receive the best service possible. Her background in customer service helps us maintain strong relationships with our clients." },
+              { name: "Ravi", title: "Operations Lead", color: "from-primary/20 to-primary/5", bio: "Ravi oversees our operations, ensuring that everything runs smoothly. His organizational skills and attention to detail help us deliver exceptional service every time." },
             ].map((member, i) => (
               <motion.div
                 key={member.name}
@@ -75,10 +100,24 @@ const About = () => {
                 <div className="p-6">
                   <div className="text-xl font-display font-bold mb-1">{member.name}</div>
                   <div className="text-muted-foreground text-sm font-body">{member.title}</div>
+                  <p className="text-muted-foreground text-sm font-body mt-2">{member.bio}</p>
                 </div>
               </motion.div>
             ))}
           </div>
+
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="text-3xl sm:text-4xl font-display font-bold mb-4 mt-12"
+          >
+            Our Impact
+          </motion.h2>
+          <p className="text-muted-foreground font-body leading-relaxed mb-4">
+            Since our founding in 20XX, we have cleaned over 10,000 homes, trained more than 50 cleaners, and received numerous positive customer reviews. Our commitment to excellence and customer satisfaction drives us to continually improve our services.
+          </p>
         </div>
       </div>
     </Layout>
